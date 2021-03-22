@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css');
+
+* {
+    outline: none !important;
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: #47525e !important;
+    margin: 1rem 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+a.navbar-brand {
+    color: black !important;
+    font-weight: bold;
+}
+
+section .container h2,
+section .container p {
+    color: #47525e;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+}
+
+.category__icon {
+    width: 25rem;
+    height: 38rem;
+}
+
+.category__icon h2 {
+    color: #47525e;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.category__icon p {
+    font-size: 1rem;
+    color: #8190a5;
+}
+
+.icon {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 17rem;
+    height: 17rem;
+    background-color: #e5e9f2;
+    border-radius: 100%;
+    position: relative;
+}
+
+.icon i {
+    position: absolute;
+    font-weight: bold;
+    font-size: 5rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.map {
+    height: 43rem;
+}
+
+.map-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 85%;
+    height: 35rem;
+    border: 1.6rem solid #e5e9f2;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    .nav-item a {
+        text-align: center;
+    }
+}
